@@ -1,0 +1,123 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 0.3px;
+    padding: 0 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    padding: 10px 0px;
+    margin: 100px auto;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    border-radius: 7px;
+}
+
+.image1{
+   width: 350px;
+    display: inherit;
+   margin-right: 20px;
+   margin-top: -20px;
+   margin-bottom: -20px;
+}
+.Text{
+  margin-left: 20px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 10px;
+ padding-right: -10px;
+ justify-content: space-between;
+ display: flex;
+ flex-direction: column;
+ width: 450px;
+}
+h2.top-text{
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 2em;
+  padding-right: 40px;
+}
+
+h2.bottom-text{
+    font-family: "Fraunces";
+    font-weight: 700;
+    color:  hsl(158, 36%, 37%);
+    margin-right: 10px;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+}
+
+h5{
+    font-family: "Montserrat";
+    font-size: 0.7rem;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 6px;
+}
+h6{
+    font-family: "Montserrat";
+    font-size: 0.7rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.prices{
+    display: inline;
+    align-items: center;
+    
+}
+.button-cart{
+    display: flex;
+    margin-top: 20px;
+    font-size:large;
+    padding: 12px 80px;
+    align-items: baseline;
+    border-radius: 10px;
+    background-color:  hsl(158, 36%, 37%);
+    color: white;
+    border-style: hidden;
+    cursor: pointer;
+}
+.button-cart:hover{
+    background-color: hsl(158, 72%, 18%) ;
+}
+.image2{
+    margin-right: 10px;
+}
+@media only screen and(max-width: 628px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
